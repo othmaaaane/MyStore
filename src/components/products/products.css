@@ -1,0 +1,132 @@
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input{
+    margin: 8px;
+    width: 55%;
+    height: 30px;
+    padding: 2.5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.search-btn{
+    height: 35px;
+    width: 70px;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+}
+
+.products-container{
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.product-card{
+    padding: 10px;
+    width: 280px;
+    height: 420px;
+    border: 1px solid rgb(78, 76, 76);
+    border-radius: 25px;
+    margin: 5px;
+}
+.product-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+.category{
+    border: 1px solid gray;
+    width: fit-content;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(197, 191, 191);
+    
+}
+.product-name{
+    padding: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Ajoute les points de suspension */
+    white-space: nowrap
+}
+    .quick-description {
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+}
+.more-detailsBtn{
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 8px;
+    float: right;
+    cursor: pointer;   
+}
+.more-detailsBtn:hover{
+    background-color: #75797b;
+    color: white;
+}
+.quick-description-container{
+    padding:7px ;
+}
+.big-article{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.categories-container {
+    position: fixed;
+    top: 10;
+    right: 0;
+    width: fit-content;
+    height: max-content;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 15px;
+  }
+  
+.categories p{
+    padding: 10px;
+    margin-bottom: 6px;
+    text-align: left;
+    background: linear-gradient(to right, #c9cbcb, #ffffff);
+    cursor: pointer;
+}
+.categories p:visited ,
+.categories p:hover{
+    border-left: 2px solid #2f4c55;
+}
+.categories h4{
+    margin-bottom: 10px;
+    margin-top: 2px;
+    font-size: large;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #0c323d;
+}
+.addToCart-btn-price{
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.addToCart-btn-price button:hover{
+    background-color: #0c323d;
+
+}
+.addToCart-btn-price button{
+    border-radius: 5px ;
+    width: 100px;
+    height: max-content;
+    padding:8px;
+    background-color: #0e4e62;
+    color:white ;
+    font-size: 0.9rem;
+    cursor: pointer;
+}

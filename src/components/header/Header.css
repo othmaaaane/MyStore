@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title{
+    font-size:2rem ;
+    cursor: pointer;
+}
+nav{
+ display: flex;
+ justify-content: space-around;   
+ background: linear-gradient(to right, #0e536a, #98FB98);
+ height: 70px;
+ padding:8px;
+
+}
+.icon-container{
+    font-size:1.7rem ;
+    cursor: pointer;
+}
+#linkedin-icon{
+    margin: 8px;
+
+}
+#github-icon{
+    margin: 8px;
+}
+#panier-icon{
+    margin: 8px;
+}
